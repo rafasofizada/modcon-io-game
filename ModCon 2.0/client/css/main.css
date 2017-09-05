@@ -1,0 +1,414 @@
+/*Positioning*/
+
+
+/*Box model*/
+
+
+/*Typography*/
+
+
+/*Visual*/
+
+@font-face {
+    font-family: 'Justice League';
+    src: url('../fonts/Justice League.otf');
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    /*Positioning*/
+    /*Box model*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*Typography*/
+    font-family: 'Justice League';
+    letter-spacing: 1px;
+    /*Visual*/
+}
+
+*:focus {
+    outline: none;
+}
+
+html, body {
+    /*Positioning*/
+    /*Box model*/
+    padding: 0;
+    margin: 0;
+    /*Typography*/
+    /*Visual*/
+    overflow-y: hidden;
+}
+
+input {
+    /*Positioning*/
+
+    /*Box model
+
+    /*Typography*/
+
+    /*Visual*/
+    -webkit-appearance: none;
+}
+
+canvas {
+    /*Positioning*/
+
+    /*Box model
+
+    /*Typography*/
+
+    /*Visual*/
+    image-rendering: optimizeSpeed;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.inline {
+    /*Positioning*/
+
+    /*Box model*/
+    display: inline-block;
+    /*Typography*/
+
+    /*Visual*/
+
+}
+
+.flex {
+    /*Positioning*/
+
+    /*Box model*/
+    display: flex;
+    /*Typography*/
+
+    /*Visual*/
+
+}
+
+span.available {
+    /*Positioning*/
+
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+    color: rgb(61, 181, 56);
+}
+
+span.offer-special-unit {
+    /*Positioning*/
+
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+    color: rgb(196, 50, 50);
+}
+
+.big-container {
+    /*Positioning*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*Box model*/
+    width: 100vw;
+    height: 100vh;
+    /*Typography*/
+
+    /*Visual*/
+}
+
+#index-container {
+    /*Positioning*/
+    z-index: 9000;
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+}
+
+#ui-container {
+    /*Positioning*/
+    z-index: 8000;
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+}
+
+#game-container {
+    /*Positioning*/
+    z-index: 7000;
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+}
+
+.column-container {
+    /*Positioning*/
+
+    /*Box model*/
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 600px;
+    height: 87vh;
+    margin: 2vh auto;
+    /*Typography*/
+
+    /*Visual*/
+    color: white;
+}
+
+.column {
+    /*Positioning*/
+
+    /*Box model*/
+
+    /*Typography*/
+
+    /*Visual*/
+    background-color: #2D2D2D;
+    border-radius: 30px;
+}
+
+.alpha-setup {
+    /*Positioning*/
+
+    /*Box model*/
+    width: 54%;
+    order: 1;
+    /*Typography*/
+
+    /*Visual*/
+}
+
+.data-container-container {
+    /*Positioning*/
+
+    /*Box model*/
+    width: 44%;
+    order: 2;
+    /*Typography*/
+
+    /*Visual*/
+    border-radius: 30px;
+}
+
+.alpha-setup-logo {
+    /*Positioning*/
+
+    /*Box model*/
+    padding: 35px 0 25px;
+    /*Typography*/
+    line-height: 70px;
+    /*Visual*/
+    border-bottom: 2px dashed white;
+}
+
+.alpha-setup-logo h1 {
+    /*Positioning*/
+
+    /*Box model*/
+
+    /*Typography*/
+    font-size: 80px;
+    line-height: 70px;
+    text-align: center;
+    /*Visual*/
+
+}
+
+#input {
+    /*Positioning*/
+
+    /*Box model*/
+    padding: 30px;
+    /*Typography*/
+
+    /*Visual*/
+
+}
+
+    .input-container {
+        /*Positioning*/
+
+        /*Box model*/
+
+        /*Typography*/
+
+        /*Visual*/
+
+    }
+
+    input[name='nickname'] {
+            /*Positioning*/
+
+            /*Box model*/
+            width: 100%;
+            height: 40px;
+            margin-bottom: 3px;
+            padding: 0 24% 0 5px;
+            /*Typography*/
+            font-size: 25px;
+            line-height: 40px;
+            /*Visual*/
+            background: -webkit-linear-gradient(#0B0B0B, #3C3C3C);
+            background: -o-linear-gradient(#0B0B0B, #3C3C3C);
+            background: linear-gradient(#0B0B0B, #3C3C3C);
+            border: 1px solid #09F976;
+            border-radius: 7px;
+            color: white;
+        }
+
+        input[name='nickname']::placeholder {
+            /*Positioning*/
+
+            /*Box model*/
+
+            /*Typography*/
+
+            /*Visual*/
+            color: #747474;
+        }
+
+    input[name='clan'] {
+        /*Positioning*/
+
+        /*Box model*/
+        width: 24%;
+        height: 40px;
+        margin-left: -24%;
+        /*Typography*/
+        font-size: 25px;
+        line-height: 40px;
+        text-align: center;
+        /*Visual*/
+        background-color: #09F976;
+        border: none;
+        border-radius: 7px;
+        color: black;
+    }
+
+        input[name='clan']::placeholder {
+            /*Positioning*/
+
+            /*Box model*/
+
+            /*Typography*/
+
+            /*Visual*/
+            color: #00be56;
+        }
+
+    select {
+        /*Positioning*/
+
+        /*Box model*/
+        box-sizing: content-box;
+        width: 100%;
+        height: 40px;
+        margin-top: 3px;
+        /*Typography*/
+        font-size: 25px;
+        /*Visual*/
+        background: -webkit-linear-gradient(#3C3C3C, #0B0B0B);
+        background: -o-linear-gradient(#3C3C3C, #0B0B0B);
+        background: linear-gradient(#3C3C3C, #0B0B0B);
+        border: 1px solid #09F976;
+        color: white;
+    }
+
+    .alpha-setup-game-start {
+        /*Positioning*/
+
+        /*Box model*/
+        width: 100%;
+        height: 60px;
+        margin-top: 15px;
+        /*Typography*/
+        font-size: 60px;
+        line-height: 60px;
+        text-align: center;
+        /*Visual*/
+        background-color: #FF001E;
+        border: none;
+        color: white;
+    }
+
+.server-info-container {
+    /*Positioning*/
+
+    /*Box model*/
+    padding: 15px;
+    /*Typography*/
+
+    /*Visual*/
+}
+
+    .gamma-info-content {
+        /*Positioning*/
+
+        /*Box model*/
+        flex: 1;
+        /*Typography*/
+        font-size: 25px;
+        /*Visual*/
+
+    }
+
+    .gamma-info-header {
+        /*Positioning*/
+
+        /*Box model*/
+
+        /*Typography*/
+        font-size: 40px !important;
+        /*Visual*/
+    }

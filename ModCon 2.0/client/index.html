@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+
+<html land='en'>
+
+    <head>
+
+        <title>ModCon Developer ~index.html</title>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+        <link rel="stylesheet" type="text/css" href="css/main.css?v=2.0" />
+        <link rel="stylesheet" type="text/css" href="css/ui.css?v=2.0" />
+
+    </head>
+
+    <body>
+
+        <div id="index-container" class="big-container">
+
+            <div class="column-container">
+
+                <div class="column alpha-setup">
+
+                    <div class="data-container alpha-setup-logo">
+
+                        <h1>ModCon</h1>
+
+                    </div>
+
+                    <div class="data-container alpha-setup-game">
+
+                        <form id="input">
+
+                            <div class="input-container">
+
+                                <input id="nickname" class="inline" type="text" name="nickname" placeholder="Your Nickname" maxlength="18" required><input id="clan" class="inline" type="text" maxlength="5" name="clan" placeholder="GUEST">
+
+                            </div>
+
+                            <div class="input-container">
+
+                                <select id="server-select" required>
+
+                                    <option value="" disabled selected>Select your server</option>
+
+                                </select>
+
+                                <button id="button" class="alpha-setup-game-start">BATTLE!</button>
+
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="data-container-container">
+
+                    <div class="column gamma-info">
+
+                        <h2 id="server-id" class="gamma-info-header title">Server #</h2>
+
+                        <div class="server-info-container">
+
+                            <div class="flex">
+
+                                <p class="gamma-info-content" id="gamma-info-players">Players:</p><p id="server-capacity" class="gamma-info-content">6/40</p>
+
+                            </div>
+
+                            <div class="flex">
+
+                                <p class="gamma-info-content" id="gamma-info-ends-in">Ends in:</p><p class="gamma-info-content">13 min.</p>
+
+                            </div>
+
+                        </div>
+
+                        <h2 class="title">Leaderboard</h2>
+
+                        <ol class="server-info-container leaderboard">
+
+                            <li class="leaderboard-position"><span>NewSpeak</span></li>
+
+                            <li class="leaderboard-position"><span>123QWERTY</span></li>
+
+                            <li class="leaderboard-position"><span>ICKY_THUMP</span></li>
+
+                            <li class="leaderboard-position"><span>9/11_INSIDE_JOB [BUSH]</span></li>
+
+                            <li class="leaderboard-position"><span>420_JOINTS_69</span></li>
+
+                        </ol>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="ui ui-player-stat-bar">
+
+            <h2 class="player-stat-nickname">
+
+                BANDZ A MAKE HER [DANCE]
+
+            </h2>
+
+            <ul class="player-stats">
+
+                <li class="player-stat">
+
+                    <p class="player-stat-value">24.5K</p>
+
+                    <p class="player-stat-name">Total MP</p>
+
+                </li>
+
+                <li class="player-stat player-stat-increase">
+
+                    <p class="player-stat-value">+3.1K<span class="measurement-unit">mp/s</span></p>
+
+                </li>
+
+                <li class="player-stat">
+
+                    <p class="player-stat-value">27</p>
+
+                    <p class="player-stat-name">bases</p>
+
+                </li>
+
+                <li class="player-stat">
+
+                    <p class="player-stat-value">5</p>
+
+                    <p class="player-stat-name">kills</p>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="ui ui-leaderboard">
+
+            <h2 class="title">leaderboard</h2>
+
+            <ol class="leaderboard">
+
+                <li class="leaderboard-position"><span>NewSpeak</span></li>
+
+                <li class="leaderboard-position"><span>123QWERTY</span></li>
+
+                <li class="leaderboard-position"><span>ICKY_THUMP</span></li>
+
+                <li class="leaderboard-position"><span>9/11_INSIDE_JOB [BUSH]</span></li>
+
+                <li class="leaderboard-position"><span>420_JOINTS_69</span></li>
+
+                <p class="leaderboard-skip">...</p>
+
+                <li class="leaderboard-position"><span>BANDZ A MAKE HER [DANCE]</span></li>
+
+            </ol>
+
+        </div>
+
+        <div class="ui ui-upgrade">
+
+            <h2 class="title">Upgrade</h2>
+
+            <ul class="upgrades">
+
+                <li class="upgrade">
+
+                    <div class="upgrade-block">
+
+                        <p class="upgrade-top upgrade-value">3<span class="measurement-unit">x</span></p>
+                        <p class="upgrade-bottom upgrade-name">Defence</p>
+
+                    </div>
+
+                    <div class="upgrade-block">
+
+                        <p class="upgrade-increase">-/-</p>
+
+                    </div>
+
+                    <div class="upgrade-block">
+
+                        <p class="upgrade-top upgrade-cost">-/-</p>
+                        <p class="upgrade-bottom upgrade-action">MAX</p>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div id="game-container" class="big-container"></div>
+
+        <script src="js/backup/phaser.min.js"></script>
+        <script src="js/backup/socket.io.js"></script>
+        <script src="js/util.js?v=2.0"></script>
+        <script src="js/global.js?v=2.0"></script>
+        <script src="js/client.js?v=2.0"></script>
+
+    </body>
+
+</html>

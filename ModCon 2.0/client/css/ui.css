@@ -1,0 +1,342 @@
+/*Positioning*/
+
+/*Box model*/
+
+/*Typography*/
+
+/*Visual*/
+
+
+/*COLORS
+BLACK – #2D2D2D
+GRAY – #8B8B8B
+GREEN – #09F976
+LIGHT RED – #FF7575
+RED – #FF001E
+*/
+
+div.ui {
+    /*Positioning*/
+    position: absolute;
+    z-index: 9999;
+    /*Box model*/
+
+    /*Typography*/
+    font-family: 'Justice League';
+    /*Visual*/
+    background-color: #2D2D2D;
+    visibility: hidden;
+}
+
+    h2.title {
+        /*Positioning*/
+
+        /*Box model*/
+        width: 100%;
+        height: 55px;
+        /*Typography*/
+        font-size: 28px;
+        line-height: 55px;
+        letter-spacing: 1px;
+        text-align: center;
+        /*Visual*/
+        border-bottom: 2px dashed white;
+        color: white;
+    }
+
+    div.ui-player-stat-bar {
+        /*Positioning*/
+        top: 0;
+        right: 0;
+        /*Box model*/
+        display: flex;
+        height: 52px;
+        padding-left: 15px;
+        /*Typography*/
+
+        /*Visual*/
+        border-bottom-left-radius: 30px;
+    }
+
+        h2.player-stat-nickname {
+            /*Positioning*/
+            vertical-align: top;
+            /*Box model*/
+            height: 52px;
+            /*Typography*/
+            font-size: 23px;
+            letter-spacing: 1px;
+            line-height: 52px;
+            /*Visual*/
+            color: white;
+        }
+
+        ul.player-stats {
+            /*Positioning*/
+            vertical-align: top;
+            /*Box model*/
+            display: flex;
+            margin-left: 15px;
+            /*Typography*/
+
+            /*Visual*/
+            list-style-type: none;
+        }
+
+            li.player-stat {
+                /*Positioning*/
+                vertical-align: top;
+                /*Box model*/
+                display: inline-block;
+                width: 76.8px;
+                height: 52px;
+                /*Typography*/
+                text-align: center;
+                /*Visual*/
+                background-color: white;
+            }
+
+            li.player-stat-increase {
+                /*Positioning*/
+
+                /*Box model*/
+                width: 80px !important;
+                /*Typography*/
+
+                /*Visual*/
+            }
+
+            li.player-stat-increase p.player-stat-value {
+                /*Positioning*/
+
+                /*Box model*/
+                width: 80px !important;
+                height: 52px !important;
+                /*Typography*/
+                line-height: 52px !important;
+                /*Visual*/
+                background-color: #09F976;
+            }
+
+            p.player-stat-value {
+                /*Positioning*/
+
+                /*Box model*/
+                display: block;
+                width: 100%;
+                height: 31px;
+                /*Typography*/
+                font-size: 23px;
+                letter-spacing: 1px;
+                line-height: 31px;
+                /*Visual*/
+            }
+
+                span.measurement-unit {
+                    /*Positioning*/
+
+                    /*Box model*/
+
+                    /*Typography*/
+                    font-size: 17px;
+                    letter-spacing: normal;
+                    /*Visual*/
+                }
+
+            p.player-stat-name {
+                /*Positioning*/
+
+                /*Box model*/
+                display: block;
+                width: 100%;
+                height: 21px;
+                /*Typography*/
+                font-size: 19px;
+                letter-spacing: 1px;
+                line-height: 21px;
+                /*Visual*/
+                background-color: #8B8B8B;
+                color: white;
+            }
+
+    div.ui-leaderboard {
+        /*Positioning*/
+
+        /*Box model*/
+        width: 240px;
+        /*Typography*/
+
+        /*Visual*/
+        border-bottom-right-radius: 30px;
+    }
+
+    ol.leaderboard {
+        /*Positioning*/
+
+        /*Box model*/
+        width: 100%;
+        padding: 15px;
+        /*Typography*/
+        font-size: 20px;
+        /*Visual*/
+        color: white;
+        list-style-position: inside;
+    }
+
+        ol.leaderboard span {
+            /*Positioning*/
+
+            /*Box model*/
+            padding-left: 7px;
+            /*Typography*/
+            letter-spacing: 1px;
+            /*Visual*/
+        }
+
+        p.leaderboard-skip {
+            /*Positioning*/
+
+            /*Box model*/
+            padding-left: 21px;
+            /*Typography*/
+
+            /*Visual*/
+        }
+
+        li.leaderboard-position {
+            /*Positioning*/
+
+            /*Box model*/
+            padding: 4px 0;
+            /*Typography*/
+
+            /*Visual*/
+        }
+
+    div.ui-upgrade {
+        /*Positioning*/
+        top: 300px;
+        left: 500px;
+        /*Box model*/
+        width: 240px;
+        padding: 0 1px;
+        /*Typography*/
+
+        /*Visual*/
+        border-radius: 30px;
+    }
+
+        ul.upgrades {
+            /*Positioning*/
+
+            /*Box model*/
+            width: 100%;
+            padding: 15px 0 30px;
+            /*Typography*/
+
+            /*Visual*/
+        }
+
+            li.upgrade {
+                /*Positioning*/
+
+                /*Box model*/
+                display: flex;
+                /*Typography*/
+
+                /*Visual*/
+            }
+
+                div.upgrade-block {
+                    /*Positioning*/
+
+                    /*Box model*/
+                    width: 100%;
+                    height: 60px;
+                    /*Typography*/
+                    text-align: center;
+                    /*Visual*/
+                }
+
+                    p.upgrade-top {
+                        /*Positioning*/
+
+                        /*Box model*/
+                        width: 100%;
+                        height: 30px;
+                        /*Typography*/
+                        font-size: 27px;
+                        line-height: 30px;
+                        /*Visual*/
+                    }
+
+                    p.upgrade-bottom {
+                        /*Positioning*/
+
+                        /*Box model*/
+                        width: 100%;
+                        height: 30px;
+                        /*Typography*/
+                        font-size: 24px;
+                        line-height: 30px;
+                        /*Visual*/
+                    }
+
+                    p.upgrade-value {
+                        /*Positioning*/
+
+                        /*Box model*/
+
+                        /*Typography*/
+
+                        /*Visual*/
+                        background-color: white;
+                    }
+
+                    p.upgrade-name {
+                        /*Positioning*/
+
+                        /*Box model*/
+
+                        /*Typography*/
+
+                        /*Visual*/
+                        background-color: #8B8B8B;
+                        color: white;
+                    }
+
+                    p.upgrade-increase {
+                        /*Positioning*/
+
+                        /*Box model*/
+                        height: 60px;
+                        /*Typography*/
+                        font-size: 28px;
+                        line-height: 60px;
+                        /*Visual*/
+                        background-color: #09F976;
+                    }
+
+                    p.upgrade-cost {
+                        /*Positioning*/
+
+                        /*Box model*/
+
+                        /*Typography*/
+
+                        /*Visual*/
+                        background-color: #FF7575;
+                        color: white;
+                    }
+
+                    p.upgrade-action {
+                        /*Positioning*/
+
+                        /*Box model*/
+
+                        /*Typography*/
+
+                        /*Visual*/
+                        background-color: #FF001E;
+                        color: white;
+                    }
