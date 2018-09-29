@@ -2,7 +2,17 @@
 ## A multiplayer, .io-style online military tactics game.
 ## Многопользовательская онлайн военно-стратегическая игра в стиле .io
 
-### Description
+### Description (English)
+
+Online multiplayer tactics game. Concept based on mobile game Modern Combat. Several game rooms work simultaneously. Processing of large amountы of data, graphical optimisation in browser (stable 55-60FPS on MacBook Pro 2015). Fast data transfer between up to 8 game clients to server and vice versa, tens of times per second.
+
+Technology stack (JavaScript):
+* Node.JS — entire back-end game logic and server code
+* |_ Express.JS — HTTP routing
+* |_ Socket.io — fast data/event transfer between clients and servers
+* Phaser.JS — entire front-end game logic, graphics, controls
+
+### Описание (Русский)
 
 Онлайн многопользовательская (multiplayer) тактическая игра. Задумка основана на мобильной игре Modern Combat. Несколько игровых комнат работают одновременно. Работа с большим количеством данных, графическая оптимизация в браузере (игра стабильно работает 50-60FPS на MacBook Pro 2015). Стремительная передача игровых данных от клиента к серверу и ко всем остальным клиентам десятки раз в секунду.
 
