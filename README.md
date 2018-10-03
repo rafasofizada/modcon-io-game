@@ -1,4 +1,4 @@
-# ModCon
+# ModCon.io
 ## A multiplayer, .io-style online military tactics game.
 ## Многопользовательская онлайн военно-стратегическая игра в стиле .io
 
